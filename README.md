@@ -3,7 +3,7 @@
 
 Nuxt + Antd + TS + Express + Mongodb  仿网上某博客网站做的Example
 
-
+不做商业用途，也暂不对外开放
 
 考虑后期迭代更换样式
 
