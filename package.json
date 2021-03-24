@@ -1,0 +1,42 @@
+{
+  "name": "myblog",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "start": "nuxt-ts start",
+    "generate": "nuxt-ts generate"
+  },
+  "dependencies": {
+    "@nuxt/typescript-runtime": "^2.0.1",
+    "@nuxtjs/axios": "^5.13.1",
+    "@nuxtjs/proxy": "^2.1.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.26",
+    "@fortawesome/free-brands-svg-icons": "^5.12.0",
+    "@fortawesome/free-regular-svg-icons": "^5.12.0",
+    "@fortawesome/free-solid-svg-icons": "^5.12.0",
+    "@fortawesome/vue-fontawesome": "^0.1.9",
+    "@types/mongoose": "^5.5.41",
+    "ant-design-vue": "^1.7.2",
+    "core-js": "^3.8.3",
+    "nuxt": "^2.14.12",
+    "mongoose": "^5.8.7",
+    "markdown-it": "^10.0.0",
+    "markdown-it-github-headings": "^2.0.0",
+    "markdown-it-task-lists": "^2.1.1",
+    "viewerjs": "^1.6.1",
+    "highlight.js": "^9.17.1",
+    "@types/cookie-parser": "^1.4.2",
+    "cookie-parser": "^1.4.4",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.2",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.1",
+    "express-session": "^1.17.0"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.14.12",
+    "@nuxt/typescript-build": "^2.0.4"
+  }
+}

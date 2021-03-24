@@ -1,0 +1,10 @@
+{
+    "apps": [{
+      "name": "NuxtAppName",
+      "script": "yarn",
+      "args": "start",
+      "exec_mode": "cluster",
+      "instances": "max"
+    }]
+  }
+  

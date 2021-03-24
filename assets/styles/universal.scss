@@ -1,0 +1,18 @@
+@import "./theme.scss";
+
+[hidden],
+[v-cloak] {
+  display: none !important;
+}
+
+.container {
+  color: $text;
+  user-select: none;
+  &.default {
+    @include defaultTheme();
+  }
+
+  &.dark {
+    @include darkTheme();
+  }
+}
